@@ -1,0 +1,172 @@
+body {background-color: #eaeaea;}
+
+.container {
+  margin: 2pc auto;
+  width: 550px;
+  outline: 3px solid brown;
+  padding: 1pc;
+}
+
+
+.name {
+  font-weight: bolder;
+}
+
+
+.frames{
+  clear: both;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.frame {
+  height:50px;
+  width:50px;
+  text-align: right;
+  background-color: orange;
+  float: left;
+  border-left: 1pt solid black;
+  border-bottom: 1pt solid black;
+  border-top: 1pt solid black;
+
+}
+
+.frame.tenth {
+  width: 71px;
+  border-right: 1pt solid black;
+}
+
+.rollDisplay {
+  padding-top: 2pt;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  border-bottom: 1pt solid black;
+  border-left: 1pt solid black;
+  float: left;
+}
+
+.rollDisplay:first-child {
+  border: none;
+  padding-left: 8px;
+}
+
+.scoreDisplay {
+  padding-right: 5px;
+  margin-top: 25px;
+}
+
+/* BowlingLine Buttons */
+
+button {
+  background-color: green;
+  color: white;
+  height: 20px;
+  width: 30px;
+  border: none;
+  padding: 3px;
+  margin: 1pt;
+}
+
+span.actions {
+  cloat: left;
+  margin-left: 2pc;
+}
+
+div.rollButtons {
+  float: left;
+  width: 130px;
+}
+
+button.rollButton {
+  width: 20px;
+}
+
+button.newgame {
+  background-color: red;
+  width: 40px;
+}
+button.newgame:disabled {background-color: lightgray}
+
+button.undo {
+  background-color: orange;
+  width: 40px;
+}
+button.undo:disabled {background-color: lightgray}
+
+button.redo {
+  background-color: green;
+  width: 40px;
+}
+button.redo:disabled {background-color: lightgray}
+
+button.delete {
+  background-color: red;
+  width: 40px;
+}
+
+button:disabled {
+  background-color: lightgray;
+}
+
+
+/* header/footer */
+
+.playerInput {
+  float: left;
+}
+
+.playerLabel {
+  padding-right: 5px;
+  float: left;
+  font-size: small;
+}
+
+#title {
+  padding-left: 2pc;
+  text-align: center;
+}
+
+#title a {
+  text-decoration: none;
+  padding-left: 1pc;
+  padding-right: 1pc;
+}
+
+#title a:visited {
+  color: black;
+}
+
+#footer {
+  padding-left: 2pc;
+  text-align: right;
+  font-size: small;
+}
+
+#footer a {
+  text-decoration: none;
+}
+
+#footer a:hover {
+  color: white;
+  background-color: green;
+}
+
+#title span {
+  padding-left: 0.5pc;
+  padding-right: 0.5pc;
+}
+
+img {
+  height: 40px;
+  width:  40px;
+}

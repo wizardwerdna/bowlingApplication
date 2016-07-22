@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "noImplicitAny" : false,
+    "sourceMap": true
+  },
+  "files": [
+    "src/app.ts",
+    "typings/index.d.ts"
+  ]
+}
